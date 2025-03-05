@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,7 +49,7 @@ table {
 }
 
 .cabecalho{
-    background-color: aqua;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,3 +58,67 @@ table {
 .logo{
     margin-left: 143px;
 }
+
+.link-menu-home{
+    margin-left: 266px;
+    text-decoration: none;
+    color: #1E1F4B;
+	font-size: 1;
+    font-weight: 400;
+	font-family: 'Poppins';
+}
+
+.link-menu-servicos{
+    margin-left: 86px;
+    text-decoration: none;
+    color: #1E1F4B;
+	font-size: 1;
+    font-weight: 400;
+	font-family: 'Poppins';
+}
+
+.link-menu{
+    margin-left: 60px;
+    text-decoration: none;
+    color:#1E1F4B;
+	font-size: 1;
+	font-weight: 400;
+	font-family: 'Poppins';
+}
+
+.menu{
+    padding-top: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-produtos{
+	background-color: aqua;
+	padding-top: 176px;
+	padding-left: 146px;
+	font-family: 'Poppins';
+	display: flex;
+}
+
+.titulo-produtos{
+	font-size:60px;
+	font-weight: 700;
+	color:  #706FE5;
+	flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+.titulo-digitais{
+	font-size:60px;
+	font-weight: 700;
+	flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+
+.subtitulo{
+	font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
