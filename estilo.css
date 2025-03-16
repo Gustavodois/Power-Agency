@@ -33,7 +33,7 @@ body {
 	color:#1E1F4B;
 	background-color: #ffffffff;
 	font-family: "Poppins";
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 ol, ul {
 	list-style: none;
@@ -112,6 +112,7 @@ table {
 	width: 575px;
 	float:right;
 	max-width: 575px;
+	
 }
 .titulo{
 	padding-left: 146px;
@@ -180,6 +181,39 @@ table {
 	}
 }
 
+.empresas{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0.6rem;
+}
+
+.empresas-content{
+	h3 {
+		font-size: 20px;
+		margin-top: 245px;
+		margin-bottom: 40px;
+		text-align: center;
+		font-weight: 600;
+	}
+	
+}
+
+.logos-empresas{
+	grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+	gap: 20px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+.google{
+	padding-left:270px;
+}
+
+.item{
+	padding-left:80px;
+}
+
 .botao-play{
 	font-size: 17px;
 	display: flex;
@@ -203,25 +237,6 @@ table {
 		}
 	}
 
-.empresas{
-	max-width: 1100px;
-	margin: 0 auto;
-	padding: 0.6rem;
-}
-
-.empresas-content{
-	margin-top: 30px;
-	font-size: 35px;
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.logos-empresas{
 	
-	grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
-	gap: 20px;
-	max-width: 80%;
-	margin: 0 auto;
-}
 
 }
