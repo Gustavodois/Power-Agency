@@ -33,7 +33,7 @@ body {
 	color:#1E1F4B;
 	background-color: #ffffffff;
 	font-family: "Poppins";
-	/* overflow-x: hidden; */
+	overflow-x: hidden; 
 }
 ol, ul {
 	list-style: none;
@@ -114,6 +114,11 @@ table {
 	max-width: 575px;
 	
 }
+
+.portfolio-content{
+	padding-left: 146px;
+}
+
 .titulo{
 	padding-left: 146px;
 	font-family: 'Poppins';
@@ -289,6 +294,232 @@ h4{
 	grid-row: 2/3;
 }
 
+.recomendacao{
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.decoracao{
+	width: 100px;
+	height: 80px;
+	background-image: url(imagens/decoracao.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: -50px;
+	z-index: 2;
+}
+
+.decoracao-1{
+	width: 100px;
+	height: 80px;
+	background-image: url(imagens/decoracao.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	bottom: 10px;
+	right: 10%;
+	z-index: 2;
+}
+
+.recomendacao-content{
+	position: relative;
+	h2{
+		font-size: 40px;
+		text-align: center;
+	}
+}
+
+.aspas{
+	width: 55%;
+	margin: 60px auto 20px auto;
+	p{
+		line-height: 2.6;
+		font-weight: 400;
+		text-align: center;
+		opacity: 0.5;
+	}
+
+	&::before{
+	content: url(imagens/aspas.png);
+	display: inline-block;
+	
+	position:absolute;
+	left: 15%;
+	top: 150px;
+	}
+
+	&::after{
+	content: url(imagens/aspas.png);
+	display: inline;
+
+	position: absolute;
+	transform: rotate(180deg);
+	right: 15%;
+	top: 150px;
+	}
+}
+
+.perfil{
+	display: flex;
+	flex-wrap: wrap;
+	width: 55%;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+	img {
+		max-width: 100%;
+	}
+}
+
+.item-perfil{
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 40%;
+	padding-bottom: 200px;
+	p{
+		opacity: .8;
+	}
+}
+
+.cadastrar{
+	padding-top: 5rem;
+	margin-bottom: 10rem;
+}
+
+.cadastrar-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 122px;
+	padding-left: 146px;
+}
+
+.cadastrar-campo{
+	width: 50%;
+	flex-basis: 50%;
+	text-align: left;
+	padding: 0 20px 0 0;
+	h2{
+		font-size: 40px;
+		margin-bottom: 15px;
+	}
+}
+
+.cadastrar-campo > p {
+	font-size: 19px;
+	line-height: 2;
+}
+
+.subs-input{
+	margin-top: 45px;
+}
+
+.subs-input form{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(111,111,222,0.1);
+	padding: 15px 22px;
+	justify-content: space-around;
+	align-items: center;
+	width: 460px;
+	border-radius: 12px;	
+}
+
+.icone-email{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(imagens/email.png);
+}
+
+input[type="text"] {
+	display: block;
+	padding: 0 0 0 12px;
+	border:none;
+	outline: none;
+	background: transparent;
+	font-size: 17px;
+}
+
+.cadastrar-produto{
+	width: 50%;
+	flex-basis: 50%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	row-gap: 50px;
+	column-gap: 20px;
+	padding-left: 50px;
+	text-align:left;
+}
+
+.icon{
+	margin-bottom: 10px;
+	img{
+		max-width: 100%;
+	}
+}
+
+.item-produto > h3{
+	margin-bottom: 10px;
+}
+
+.item-produto > p{
+	opacity: .8;
+}
+
+footer{
+	background-color: #2E3E5C;
+	padding: 55px 0;
+}
+
+.foot-cima{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.189);
+}
+
+.foot-brand img{
+	transform: scale(1.1)
+}
+
+.foot-sosmed ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+
+	li{
+		background-color: #706FE5;
+		border-radius: 50%;
+		width: 48px;
+		height: 48px;
+		display: grid;
+		place-items:center;
+		margin-left: 16px;
+	}
+	img{
+		transform:scale(1.1)
+	}
+}
+
+.foot-baixo{
+	h3{
+		color:#ffffffff;
+	}
+}
+
+.copyright{
+	color:#ffffffff;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 14px;
+	opacity: 0.8;
+}
 .botao-play{
 	font-size: 17px;
 	display: flex;
