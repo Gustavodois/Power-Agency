@@ -117,6 +117,7 @@ table {
 
 .portfolio-content{
 	padding-left: 146px;
+	font-weight: 700;
 }
 
 .titulo{
@@ -240,6 +241,7 @@ table {
 	grid-template-columns: repeat(10,1fr);
 	gap: 20px;
 	margin-top: 40px;
+	padding-bottom:180px;
 }
 
 .image-porto-grande{
@@ -297,6 +299,7 @@ h4{
 .recomendacao{
 	margin-bottom: 100px;
 	position: relative;
+	
 }
 
 .decoracao{
@@ -326,6 +329,7 @@ h4{
 	position: relative;
 	h2{
 		font-size: 40px;
+		font-weight: 800;
 		text-align: center;
 	}
 }
@@ -402,6 +406,7 @@ h4{
 	padding: 0 20px 0 0;
 	h2{
 		font-size: 40px;
+		font-weight: 700;
 		margin-bottom: 15px;
 	}
 }
@@ -454,6 +459,9 @@ input[type="text"] {
 	column-gap: 20px;
 	padding-left: 50px;
 	text-align:left;
+	h3{
+		font-weight: 700;
+	}
 }
 
 .icon{
@@ -480,6 +488,7 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding-bottom: 48px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.189);
 }
 
